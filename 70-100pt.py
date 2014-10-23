@@ -32,4 +32,7 @@ window1 = drawpad.create_rectangle(110,500,150,550, fill='white')
 window2 = drawpad.create_rectangle(110,430,150,480, fill='white')
 window3 = drawpad.create_rectangle(330,430,370,480, fill='white')
 window4 = drawpad.create_rectangle(330,500,370,550, fill='white')
+#Door & Door Handle code
+door = drawpad.create_rectangle(200,600,270,520, fill='tan')
+doorhandle = drawpad.create_oval(250,570,260,560, fill='black')
 root.mainloop()
